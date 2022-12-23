@@ -1,0 +1,132 @@
+/* Basic styles */
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  background-color: #f5deb3;
+}
+
+a {
+  color: #6c6;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0 0 0 0;
+}
+
+/* Header styles */
+header {
+  background-color: #8b4513;
+  color: #fff;
+  padding: 1em;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+}
+
+header h1 {
+  font-size: 2em;
+  margin: 0;
+}
+
+/* Navigation styles */
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 1em;
+}
+
+nav a {
+  display: block;
+  padding: 0.5em 1em;
+  background-color: #8b4513;
+  color: #fff;
+  border-radius: 0 0 5px 5px;
+}
+
+nav a:hover {
+  background-color: #8b4513;
+}
+
+/* Main styles */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+/* Gallery styles */
+.gallery {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin: -0.5em -0.5em 1em -0.5em;
+}
+
+.gallery img {
+  width: 50%;
+  margin: 0.5em;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+/* Footer styles */
+footer {
+  background-color: #8b4513;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+
+form {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5em;
+  font-weight: bold;
+}
+
+input[type="text"], input[type="email"], textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 1em;
+  padding: 0.5em;
+  font-size: 1em;
+}
+
+input[type="submit"] {
+  background-color: #8b4513;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 0.5em 1em;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #333;
+}
