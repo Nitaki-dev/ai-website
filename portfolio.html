@@ -6,16 +6,16 @@
   </head>
   <body>
     <header>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Gallery</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav><br>
       <h1>Nausicaä of the Valley of the Wind</h1>
     </header>
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Gallery</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>
     <main>
       <section>
         <h2>Welcome to the World of Nausicaä</h2>
@@ -33,11 +33,12 @@
         <h2>Gallery</h2>
         <p>
           Check out some of the beautiful artwork and scenes from Nausicaä of the Valley of the Wind below:
-        </p><br>
+        </p>
         <div class="gallery">
           <img src="image (1).png" alt="Image 1">
           <img src="image (2).png" alt="Image 2">
           <img src="image (3).png" alt="Image 3">
+          <img src="image (4).png" alt="Image 4">
         </div>
       </section>
       <section>
@@ -47,20 +48,17 @@
         </p>
         <form>
           <label for="name">Name:</label>
-          <input type="text" id="name" name="name">
-          <br>
+          <input type="text" id="name" name="name" required>
           <label for="email">Email:</label>
-          <input type="email" id="email" name="email">
-          <br>
+          <input type="email" id="email" name="email" required>
           <label for="message">Message:</label>
-          <textarea id="message" name="message"></textarea>
-          <br>
+          <textarea id="message" name="message" required></textarea>
           <input type="submit" value="Send">
-        </form><br><br>
-      </section>
+        </form>
+      </section><br><br>
     </main>
     <footer>
-      <p>Copyright &copy; 2022 Nausicaä of the Valley of the Wind</p>
+      &copy; 2022 Nausicaä of the Valley of the Wind
     </footer>
   </body>
 </html>
